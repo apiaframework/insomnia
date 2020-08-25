@@ -1,0 +1,3 @@
+inherit_from:
+  - .rubocop_todo.yml
+  - https://dev.k.io/rubocop/rubocop.yml
