@@ -64,7 +64,7 @@ module Rapid
           }
 
           authenticator = route.endpoint.definition.authenticator ||
-                          route.controller.definition.authenticator ||
+                          route.controller&.definition&.authenticator ||
                           @api.definition.authenticator
 
           case authenticator&.definition&.type
