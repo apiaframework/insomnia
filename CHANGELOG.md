@@ -2,6 +2,8 @@
 
 This file contains all the latest changes and updates to this application.
 
+## 2.0.0
+
 ## 1.0.1
 
 ### Bug Fixes
