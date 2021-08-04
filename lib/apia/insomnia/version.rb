@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Rapid
+module Apia
   module Insomnia
 
     VERSION_FILE_ROOT = File.expand_path('../../../VERSION', __dir__)

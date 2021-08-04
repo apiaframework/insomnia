@@ -2,6 +2,6 @@
 
 # frozen_string_literal: true
 
-require 'rapid/insomnia/rack'
+require 'apia/insomnia/rack'
 
 # rubocop:enable Naming/FileName

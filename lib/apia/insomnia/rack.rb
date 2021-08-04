@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require 'rapid/insomnia/schema'
+require 'apia/insomnia/schema'
 
-module Rapid
+module Apia
   module Insomnia
     class Rack
 

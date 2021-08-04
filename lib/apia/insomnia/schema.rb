@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Rapid
+module Apia
   module Insomnia
     class Schema
 
@@ -121,7 +121,7 @@ module Rapid
       end
 
       def get_default_value_for_argument(argument)
-        if argument.type.argument_set? && argument.type.klass.definition.is_a?(Rapid::Definitions::LookupArgumentSet)
+        if argument.type.argument_set? && argument.type.klass.definition.is_a?(Apia::Definitions::LookupArgumentSet)
           {
             argument.type.klass.definition.arguments.values.map(&:name).join('|') => ''
           }
